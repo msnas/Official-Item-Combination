@@ -1,0 +1,2 @@
+70065	Costume Bonus Transfer	Transfers the bonuses from one costume onto another. The transfer will destroy one of the costumes.
+70070	Shoulder Sash Transfer	Transfers bonuses from one sash to another. | Both sashes must have the same grade and the same absorption rate. | Take the item to Theowahdan.
