@@ -1,0 +1,1 @@
+#define ENABLE_MOVE_COSTUME_ATTR

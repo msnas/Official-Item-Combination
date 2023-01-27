@@ -1,0 +1,11 @@
+quest item_combination begin
+	state start begin
+		when 20406.chat."Transfer Bonuses" begin
+			say("You can transfer your bonuses from an item to a[ENTER]target item. First activate the window and drag[ENTER]the transfer item into it. You can then select[ENTER]the source and target items.[ENTER][ENTER]The source item will be destroyed during the[ENTER]transfer. Do you want to continue?")
+			
+			if select("Yes, continue", "No, I don't want to") ~= 2 then
+				cmdchat("ShowItemCombinationDialog")
+			end
+		end
+	end
+end
